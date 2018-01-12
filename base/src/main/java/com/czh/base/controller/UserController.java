@@ -15,7 +15,7 @@ public class UserController {
     private String dataSourceUsername;
     @RequestMapping("/index")
     public String index(){
-        return dataSourceUsername;
+        return "root";
     }
     @RequestMapping("/json")
     public String json() throws MyException{
